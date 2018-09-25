@@ -20,11 +20,7 @@ module.exports = {
 	},
 	resolve: {
 		extensions: [".tsx", ".ts", ".js"],
-		modules: [
-			path.resolve(__dirname, "../Common.Node/node_modules"),
-			path.resolve(__dirname, "../Common.Node"),
-			"node_modules"
-		]
+		modules: ["node_modules"]
 	},
 	output: {
 		path: path.join(__dirname, "dist"),
