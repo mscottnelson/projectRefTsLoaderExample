@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+		"allowJs": false,
+	  "target": "es2017",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "composite": true
+  },
+  "typeAcquisition": {
+    "enable": true
+  },
+  "references": [
+    {
+      "path": "../isomorphicLib"
+		},
+		{
+      "path": "../backendLib"
+    }
+  ],
+  "include": ["src/helloExample.ts"]
+}
